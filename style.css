@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* { border: 1px solid black; 
+* { 
+    /* border: 1px solid black;  */
     margin: 0;
     padding: 0;
 }
@@ -14,7 +15,6 @@ html, body {
 /* Column 1 */
 
 .first-section {
-  /* padding: 15px; */
   background-color: #1F2937;
 }
 
@@ -30,11 +30,12 @@ html, body {
 
 ul {
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
+    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-self: center;
+    gap: 10px;
   }
 
 .navbar-left,
@@ -60,10 +61,9 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
-    margin: 50px;
 }
 
-.content-left, .content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,30 @@ h1 {
     width: 50%;
 }
 
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 565px;
+}
+
+.content-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-button-one {
+    background-color: #3882F6;    
+    padding: 10px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: fit-content;
+    border-color: #3882F6;
+}
+
 img {
-    margin: 50px;
+    margin-bottom: 50px;
+    margin-right: 300px;
 }
 /* End of Column 1 */
