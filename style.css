@@ -76,7 +76,8 @@ h1 {
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    margin-left: 565px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content-text {
