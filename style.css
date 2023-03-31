@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * { 
-    /* border: 1px solid black;  */
+    border: 1px solid black; 
     margin: 0;
     padding: 0;
 }
@@ -21,6 +21,7 @@ html, body {
 .navbar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #header-logo {
@@ -30,21 +31,26 @@ html, body {
 
 ul {
     list-style-type: none;
-    margin: 10px;
-    padding: 10px;
     display: flex;
     flex-direction: row;
     align-self: center;
-    gap: 10px;
+    gap: 40px;
   }
 
 .navbar-left,
 .navbar-right {
     display: flex;
     width: 50%;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+}
+
+.navbar-left {
+    padding-left: 12%;
+}
+
+.navbar-right {
+    justify-content: flex-end;
+    padding-right: 12%;
 }
 
 .header-link {
@@ -61,14 +67,17 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 7%;
+    padding-top: 7%;
 }
 
 .content-right {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
+    padding-right: 12%;
 }
 
 .content-left {
@@ -76,8 +85,9 @@ h1 {
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    padding-left: 12%;
 }
 
 .content-text {
@@ -94,8 +104,4 @@ h1 {
     border-color: #3882F6;
 }
 
-img {
-    margin-bottom: 50px;
-    margin-right: 300px;
-}
 /* End of Column 1 */
