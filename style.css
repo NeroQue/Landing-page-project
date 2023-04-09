@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 html, body {
     height: 100%;
     display: flex;
@@ -177,12 +182,14 @@ img {
     background-color: #3882F6;
     padding: 30px;
     border-radius: 10px;
+    gap: 30px;
 }
 
 .separate_from_button {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+    justify-content: center;
 }
 
 .sign-up-button-two {
@@ -204,3 +211,5 @@ img {
     display: flex;
     justify-content: center;
 }
+
+/* End of Footer */
