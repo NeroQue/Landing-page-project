@@ -12,7 +12,7 @@ html, body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-/* Column 1 */
+/* Row 1 */
 
 .first-section {
   background-color: #1F2937;
@@ -108,4 +108,4 @@ img {
     border-radius: 8px;
 }
 
-/* End of Column 1 */
+/* End of Row 1 */
