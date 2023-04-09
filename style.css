@@ -189,3 +189,18 @@ img {
     align-self: flex-end;
     border-color: #FFFFFF;
 }
+
+/* End of Row 4 */
+/* Start of the Footer */
+
+.footer {
+    display: flex;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.fifth_section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
