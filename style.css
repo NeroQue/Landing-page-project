@@ -27,6 +27,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 #header-logo {
@@ -126,6 +127,8 @@ img {
     color: #1F2937;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .pictures {
